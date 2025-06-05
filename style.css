@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -5,7 +7,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto;
-
+    color: #F9FAF8
 }
 
 li {
@@ -21,23 +23,71 @@ nav {
     align-items: center;
 }
 
-.list {
+button {
+    background-color: #3882F6;
+}
+
+.header {
+    font-size: 24px;
+}
+
+.header-link-text,
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-link-text {
     display: flex;
     gap: 25px;
 }
 
+
 .section1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
+    background-color: #1F2937;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 0 300px;
+}
 
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .footer {
     background-color: #1F2937;
-    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 72px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #1F2937;
+}
+
+.information-header {
+    font-size: 36px;
+
+    font-weight: 900;
+    text-align: center;
+    padding: 50px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.images {
+    display: flex;
 }
