@@ -1,26 +1,42 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+
 }
 
 li {
     list-style: none;
 }
 
-.header {
+nav {
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
-    background: grey;
+    background: #1F2937;
+    color: white;
     align-items: center;
 }
 
 .list {
     display: flex;
-    gap: 10px;
+    gap: 25px;
 }
 
-.sign-up {
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
