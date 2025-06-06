@@ -17,7 +17,7 @@ li {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 0 100px;
+    padding: 0 300px;
     background: #1F2937;
     color: white;
     align-items: center;
@@ -25,10 +25,12 @@ nav {
 
 button {
     background-color: #3882F6;
+    margin: 10px 0;
 }
 
 .header {
     font-size: 24px;
+    margin: 10px 0;
 }
 
 .header-link-text,
@@ -103,11 +105,24 @@ button {
 .section3 {
     background-color: #E5E7EB;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: light;
-    color: #1F2937
+    color: #1F2937;
+}
+
+.quote-name {
+    font-weight: bold;
+    color: #1F2937;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    width: 1151.69px;
 }
