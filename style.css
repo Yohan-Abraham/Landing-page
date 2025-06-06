@@ -23,20 +23,24 @@ nav {
     align-items: center;
 }
 
-button {
+button,
+.call-button {
     background-color: #3882F6;
     margin: 10px 0;
     border-radius: 6px;
-    width: 15%;
-    padding: 10px 5px;
+    width: 18%;
+    padding: 5px 10px;
     color: #F9FAF8;
-    border: none;
+    border: 2px solid #3882F6;
+    box-sizing: border-box;
     font-weight: bold;
 }
 
-.header {
+.header,
+.message {
     font-size: 24px;
-    margin: 10px 0;
+    margin: 2px 0;
+    font-weight: bold;
 }
 
 .header-link-text,
@@ -127,6 +131,10 @@ button {
     align-items: center;
 }
 
+.quote-container {
+    margin: 200px;
+}
+
 .quote {
     font-size: 36px;
     font-style: italic;
@@ -141,4 +149,27 @@ button {
     display: flex;
     justify-content: flex-end;
     width: 1151.69px;
+}
+
+.section4 {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    padding: 50px;
+    width: 60%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.call-button {
+    border-color: white;
+    width: 10%;
+    height: 40px;
 }
