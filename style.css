@@ -72,14 +72,15 @@ button {
     flex-direction: column;
     width: 100%;
     color: #1F2937;
+    height: 500px;
+    justify-content: center;
 }
 
 .information-header {
     font-size: 36px;
-
     font-weight: 900;
     text-align: center;
-    padding: 50px;
+    padding-bottom: 50px;
 }
 
 .image img {
@@ -90,4 +91,23 @@ button {
 
 .images {
     display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 0 50px;
+}
+
+.container {
+    text-align: center;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    height: 500px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937
 }
