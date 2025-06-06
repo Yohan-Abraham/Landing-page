@@ -7,7 +7,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 li {
@@ -26,6 +26,12 @@ nav {
 button {
     background-color: #3882F6;
     margin: 10px 0;
+    border-radius: 6px;
+    width: 15%;
+    padding: 10px 5px;
+    color: #F9FAF8;
+    border: none;
+    font-weight: bold;
 }
 
 .header {
